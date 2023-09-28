@@ -1,0 +1,16 @@
+.footer {
+    width: 100%;
+    min-height: 88px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    color: var(--Black, #191C1F);
+    font-family: 'GraphikLCG', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    border-top: 1px solid #ECEFF2;
+}

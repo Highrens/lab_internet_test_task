@@ -1,0 +1,144 @@
+.reviews {
+    width: 100%;
+    background: var(--Extralight-gray, #F6F8FA);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviews-block {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.reviews_container {
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    justify-items: center;
+    gap: 32px;
+}
+
+.reviews_title {
+    margin: 57px auto 32px;
+    color: var(--Black, #191C1F);
+    text-align: center;
+
+    font-family: 'GraphikLCG', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    /* 140% */
+}
+
+.review {
+    max-width: 297px;
+    padding: 22px 22px 38px 22px;
+    height: auto;
+    border-radius: 8px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 15px 24px 0px rgba(0, 0, 0, 0.10);
+}
+
+.review__head {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.review__author-image {
+    width: 44px;
+    height: 44px;
+
+
+    margin-right: 16px;
+}
+
+.review__author-info {
+    margin: 0;
+    text-align: start;
+}
+
+.review__author-name {
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+.review__author-city {
+    margin: 0;
+
+    color: var(--Dark-gray, #5E646A);
+
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.review__text {
+    margin: 0;
+    text-align: justify;
+}
+
+.review__button {
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    transition: .5s;
+}
+
+.review__button:active {
+    background: #5E646A;
+}
+
+.review__button-image {
+    transition: 1s;
+}
+
+.review__button:last-of-type {
+    rotate: 180deg;
+}
+
+.review__button-image:hover {
+    filter: invert(32%) sepia(90%) saturate(2408%) hue-rotate(211deg) brightness(94%) contrast(94%);
+}
+.dots{
+    display: flex;
+}
+
+.dot{
+    border-radius: 50%;
+    width: 8px;
+    min-height: 8px;
+    background: #C2C8CD;
+    margin-left: 17px;
+}
+
+.dot_active {
+    background: #2A6CEA;
+}
+
+.dot:first-of-type {
+    margin-left: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .review__button{
+        display: none;
+    }
+    .reviews_container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 650px) {
+    .review {
+        height:  fit-content;
+    }
+    .review__button{
+        display: none;
+    }
+    .reviews_container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

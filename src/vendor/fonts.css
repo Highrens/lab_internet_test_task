@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'GraphikLCG';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("GraphikLCG-Regular.woff") format("woff"),
+   url("GraphikLCG-Regular.woff2") format("woff2")
+}
