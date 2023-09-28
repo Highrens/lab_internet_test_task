@@ -44,6 +44,8 @@
 
 .HowItWork_card_title {
     margin: 0;
+    
+    text-align: start;
 }
 
 .HowItWork_card_text {

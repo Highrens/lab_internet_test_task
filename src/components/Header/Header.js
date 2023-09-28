@@ -11,12 +11,12 @@ export default function Header(props) {
       <nav className="header-navigation">
         <ul className="header-navigation-list">
           <li className="header-navigation-link">
-            <a href="#1" className="header-navigation-link">
+            <a href="#how-it-work" className="header-navigation-link">
               Как это работает
             </a>
           </li>
           <li className="header-navigation-link">
-            <a href="#2" className="header-navigation-link">
+            <a href="#thirdBlock" className="header-navigation-link">
               3-й блок
             </a>
           </li>
