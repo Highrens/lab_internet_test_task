@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/lab_internet_test_task/static/css/main.e2578407.css",
+    "main.js": "/lab_internet_test_task/static/js/main.894d0831.js",
+    "static/js/787.e8769ff5.chunk.js": "/lab_internet_test_task/static/js/787.e8769ff5.chunk.js",
+    "static/media/Lunch_atop_a_Skyscraper 1.png": "/lab_internet_test_task/static/media/Lunch_atop_a_Skyscraper 1.f9b3ce910fed05ab63ff.png",
+    "static/media/1.png": "/lab_internet_test_task/static/media/1.e4946b01026e06bc2b09.png",
+    "static/media/3.png": "/lab_internet_test_task/static/media/3.3c39c5266778957e4431.png",
+    "static/media/2.png": "/lab_internet_test_task/static/media/2.c65771d6695b343110ae.png",
+    "static/media/2_1.png": "/lab_internet_test_task/static/media/2_1.0780c115b57572a20a85.png",
+    "static/media/GraphikLCG-Regular.woff": "/lab_internet_test_task/static/media/GraphikLCG-Regular.b4fc93d5073c5d6f5235.woff",
+    "static/media/GraphikLCG-Regular.woff2": "/lab_internet_test_task/static/media/GraphikLCG-Regular.92a1ff709799ec31f9f0.woff2",
+    "static/media/unnamed.jpg": "/lab_internet_test_task/static/media/unnamed.7c4b568b811d87e565cc.jpg",
+    "static/media/delivery-truck.svg": "/lab_internet_test_task/static/media/delivery-truck.51da6088074c960f3cb2064a98b81323.svg",
+    "static/media/money-bags.svg": "/lab_internet_test_task/static/media/money-bags.0710dd5614836107910420e54f651991.svg",
+    "static/media/Logo_black.svg": "/lab_internet_test_task/static/media/Logo_black.c1f1a612141e439ee5eaa62d40492d08.svg",
+    "static/media/waiting.svg": "/lab_internet_test_task/static/media/waiting.eb67f8d6c1532b855211689fb9cc1f72.svg",
+    "static/media/logo-min.svg": "/lab_internet_test_task/static/media/logo-min.889ec25606bfc8f225339fc27aef62dc.svg",
+    "static/media/secure.svg": "/lab_internet_test_task/static/media/secure.3dc7377cce5925ef222650ce3376ead6.svg",
+    "static/media/arrowIcon.svg": "/lab_internet_test_task/static/media/arrowIcon.c186e04d9ecf82b441faf8b893e87f71.svg",
+    "index.html": "/lab_internet_test_task/index.html",
+    "main.e2578407.css.map": "/lab_internet_test_task/static/css/main.e2578407.css.map",
+    "main.894d0831.js.map": "/lab_internet_test_task/static/js/main.894d0831.js.map",
+    "787.e8769ff5.chunk.js.map": "/lab_internet_test_task/static/js/787.e8769ff5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2578407.css",
+    "static/js/main.894d0831.js"
+  ]
+}
